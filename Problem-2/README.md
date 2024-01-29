@@ -31,8 +31,6 @@ Explanation: Your function should return `k = 5`, with the first five elements o
 
 # **Solution:**
 ## Intuition
-**Intuition:**
-
 The code defines a class `Solution` with a method `removeDuplicates` designed to operate on a list of integers (`nums`). The objective is to identify and count the unique elements in the list while maintaining the original order.
 
 1. `new_list`: This list is used to store unique elements as they are encountered during the iteration through `nums`.
