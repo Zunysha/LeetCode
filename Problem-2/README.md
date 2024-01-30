@@ -10,13 +10,13 @@ Consider the number of unique elements of `nums` to be `k`. To get accepted, you
 
 # **Examples:**
 
-*Example 1:*
+## Example 1:
 
 Input: `nums = [1, 1, 2]`  
 Output: `2`, `nums = [1, 2, _]`  
 Explanation: Your function should return `k = 2`, with the first two elements of `nums` being 1 and 2 respectively. It does not matter what you leave beyond the returned `k` (hence they are underscores).
 
-*Example 2:*
+## Example 2:
 
 Input: `nums = [0, 0, 1, 1, 1, 2, 2, 3, 3, 4]`  
 Output: `5`, `nums = [0, 1, 2, 3, 4, _, _, _, _, _]`  
@@ -51,41 +51,41 @@ In summary, the intuition behind this code is to identify and count unique eleme
 ## Approach
 The code defines a class `Solution` with a method `removeDuplicates` that operates on a list of integers (`nums`). The objective is to remove duplicates in-place and return the number of unique elements. The approach involves modifying the array `nums` such that the first `k` elements contain the unique elements in the original order.
 
-1. **Initialization:**
+### Initialization:
     - `unique`: Initialized to 1, as the first element is considered unique.
     - `index`: Initialized to 1, as it keeps track of the position where the next unique element should be placed.
 
-2. **Iteration through the List:**
+### Iteration through the List:
     - The code iterates through the list `nums` starting from the second element (`i = 1`) to the end.
 
-3. **Checking for Duplicates:**
+### Checking for Duplicates:
     - For each element, it checks whether it is equal to the previous element (`nums[i] != nums[i - 1]`). If true, it means a new unique element is found.
 
-4. **Updating the Array:**
+### Updating the Array:
     - If a new unique element is found, it is placed at the correct position (`nums[index] = nums[i]`).
     - `index` is then incremented to prepare for the next unique element.
     - `unique` is also incremented to keep track of the count of unique elements.
 
-5. **Return:**
+### Return:
     - The method returns the variable `unique`, representing the count of unique elements.
 
-6. **Example Usage:**
+### Example Usage:
     - An instance of the `Solution` class is created, and the `removeDuplicates` method is called with the sample input `my_list = [0, 0, 1, 1, 1, 2, 2, 3, 3, 4]`.
     - The result (`k`) is the count of unique elements.
     - The modified array (`my_list[:k]`) containing the first `k` unique elements is printed.
     - The count of unique elements (`k`) is also printed.
 
-**Summary:**
+### Summary:
 The approach focuses on iterating through the array, identifying unique elements, and modifying the array in-place to contain only the unique elements in the original order. The final result is the count of unique elements and the modified array with the first `k` unique elements. This approach avoids using additional space and efficiently updates the array while maintaining its non-decreasing order.
 
 ## Complexity
-**- Time Complexity:**
+### Time Complexity:
 
 The time complexity of the provided code is O(n), where n is the length of the input list nums. The primary reason for this linear time complexity is the single loop that iterates through each element of the list once.
 
 In the loop, the code performs constant time operations such as comparisons (nums[i] != nums[i - 1]), assignments (nums[index] = nums[i]), and increments (index += 1 and unique += 1). As the number of operations inside the loop is constant, the overall time complexity is proportional to the number of elements in the input list, resulting in a linear time complexity of O(n).
 
-  **- Space Complexity:**
+### Space Complexity:
 
 The space complexity is O(1) because the code uses a constant amount of additional space regardless of the size of the input list. The main variables contributing to space complexity are unique and index, both of which require a constant amount of space.
 
