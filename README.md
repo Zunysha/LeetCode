@@ -7,3 +7,8 @@ Welcome to the Daily Coding Problems repository! Within this collection, you'll 
 
 - [**Problem 4- Search Insert Position**](https://github.com/Zunysha/LeetCode/tree/main/Problem-4) - Given a sorted array of distinct integers and a target value, return the index if the target is found. If not, return the index where it would be if it were inserted in order.
 You must write an algorithm with O(log n) runtime complexity.
+
+- [**Problem 5- Plus One**](https://github.com/Zunysha/LeetCode/tree/main/Problem-5) - You are given a large integer represented as an integer array digits, where each digits[i] is the ith digit of the integer. The digits are ordered from most significant to least significant in left-to-right order. The large integer does not contain any leading 0's.
+Increment the large integer by one and return the resulting array of digits.
+
+ 
