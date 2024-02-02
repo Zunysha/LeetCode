@@ -12,3 +12,5 @@ You must write an algorithm with O(log n) runtime complexity.
 Increment the large integer by one and return the resulting array of digits.
 
  
+ - [**Problem 6- Pascal's Triangle**](https://github.com/Zunysha/LeetCode/tree/main/Problem-6) - Given an integer numRows, return the first numRows of Pascal's triangle.
+In Pascal's triangle, each number is the sum of the two numbers directly above it
