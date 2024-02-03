@@ -11,6 +11,10 @@ You must write an algorithm with O(log n) runtime complexity.
 - [**Problem 5- Plus One**](https://github.com/Zunysha/LeetCode/tree/main/Problem-5) - You are given a large integer represented as an integer array digits, where each digits[i] is the ith digit of the integer. The digits are ordered from most significant to least significant in left-to-right order. The large integer does not contain any leading 0's.
 Increment the large integer by one and return the resulting array of digits.
 
+- [**Problem 5- Plus One**](https://github.com/Zunysha/LeetCode/tree/main/Problem-5) - You are given a large integer represented as an integer array digits, where each digits[i] is the ith digit of the integer. The digits are ordered from most significant to least significant in left-to-right order. The large integer does not contain any leading 0's.
+Increment the large integer by one and return the resulting array of digits.
+
  
- - [**Problem 6- Pascal's Triangle**](https://github.com/Zunysha/LeetCode/tree/main/Problem-6) - Given an integer numRows, return the first numRows of Pascal's triangle.
-In Pascal's triangle, each number is the sum of the two numbers directly above it
+ - [**Problem 7- Merge Sorted Array**](https://github.com/Zunysha/LeetCode/tree/main/Problem-7) - You are given two integer arrays nums1 and nums2, sorted in non-decreasing order, and two integers m and n, representing the number of elements in nums1 and nums2 respectively.
+Merge nums1 and nums2 into a single array sorted in non-decreasing order.
+The final sorted array should not be returned by the function, but instead be stored inside the array nums1. To accommodate this, nums1 has a length of m + n, where the first m elements denote the elements that should be merged, and the last n elements are set to 0 and should be ignored. nums2 has a length of n.
