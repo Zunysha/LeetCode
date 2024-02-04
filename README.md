@@ -18,3 +18,7 @@ Increment the large integer by one and return the resulting array of digits.
  - [**Problem 7- Merge Sorted Array**](https://github.com/Zunysha/LeetCode/tree/main/Problem-7) - You are given two integer arrays nums1 and nums2, sorted in non-decreasing order, and two integers m and n, representing the number of elements in nums1 and nums2 respectively.
 Merge nums1 and nums2 into a single array sorted in non-decreasing order.
 The final sorted array should not be returned by the function, but instead be stored inside the array nums1. To accommodate this, nums1 has a length of m + n, where the first m elements denote the elements that should be merged, and the last n elements are set to 0 and should be ignored. nums2 has a length of n.
+
+- [**Problem 8- Single Number**](https://github.com/Zunysha/LeetCode/tree/main/Problem-8) - Given a non-empty array of integers nums, every element appears twice except for one. Find that single one.
+You must implement a solution with a linear runtime complexity and use only constant extra space.
+
