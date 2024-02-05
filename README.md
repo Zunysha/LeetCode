@@ -22,3 +22,4 @@ The final sorted array should not be returned by the function, but instead be st
 - [**Problem 8- Single Number**](https://github.com/Zunysha/LeetCode/tree/main/Problem-8) - Given a non-empty array of integers nums, every element appears twice except for one. Find that single one.
 You must implement a solution with a linear runtime complexity and use only constant extra space.
 
+- [**Problem 9- Majority Element**](https://github.com/Zunysha/LeetCode/tree/main/Problem-9) -Given an array nums of size n, return the majority element.The majority element is the element that appears more than ⌊n / 2⌋ times. You may assume that the majority element always exists in the array.
