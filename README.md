@@ -25,6 +25,4 @@ You must implement a solution with a linear runtime complexity and use only cons
 
 - [**Problem 10- Pascal's Triangle II**](https://github.com/Zunysha/LeetCode/tree/main/Problem-10) -Given an integer rowIndex, return the rowIndexth (0-indexed) row of the Pascal's triangle.In Pascal's triangle, each number is the sum of the two numbers directly above it as shown
 
-- [**Problem 11- Summary Range**](https://github.com/Zunysha/LeetCode/tree/main/Problem-11) -You are given a sorted unique integer array nums.
-
-A range [a,b] is the set of all integers from a to b (inclusive). Return the smallest sorted list of ranges that cover all the numbers in the array exactly. That is, each element of nums is covered by exactly one of the ranges, and there is no integer x such that x is in one of the ranges but not in nums.
+- [**Problem 11- Summary Range**](https://github.com/Zunysha/LeetCode/tree/main/Problem-11) -You are given a sorted unique integer array nums.A range [a,b] is the set of all integers from a to b (inclusive). Return the smallest sorted list of ranges that cover all the numbers in the array exactly. That is, each element of nums is covered by exactly one of the ranges, and there is no integer x such that x is in one of the ranges but not in nums.
