@@ -28,3 +28,6 @@ You must implement a solution with a linear runtime complexity and use only cons
 - [**Problem 11- Summary Range**](https://github.com/Zunysha/LeetCode/tree/main/Problem-11) -You are given a sorted unique integer array nums.A range [a,b] is the set of all integers from a to b (inclusive). Return the smallest sorted list of ranges that cover all the numbers in the array exactly. That is, each element of nums is covered by exactly one of the ranges, and there is no integer x such that x is in one of the ranges but not in nums.
 
 - [**Problem 12- Missing Number**](https://github.com/Zunysha/LeetCode/tree/main/Problem-12) -Given an array nums containing n distinct numbers in the range [0, n], return the only number in the range that is missing from the array.
+
+- [**Problem 13- Move Zeroes**](https://github.com/Zunysha/LeetCode/tree/main/Problem-13) -Given an integer array nums, move all 0's to the end of it while maintaining the relative order of the non-zero elements.
+Note that you must do this in-place without making a copy of the array.
