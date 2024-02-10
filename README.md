@@ -31,3 +31,10 @@ You must implement a solution with a linear runtime complexity and use only cons
 
 - [**Problem 13- Move Zeroes**](https://github.com/Zunysha/LeetCode/tree/main/Problem-13) -Given an integer array nums, move all 0's to the end of it while maintaining the relative order of the non-zero elements.
 Note that you must do this in-place without making a copy of the array.
+
+- [**Problem 14- Range Sum Query**](https://github.com/Zunysha/LeetCode/tree/main/Problem-14) -Given an integer array nums, handle multiple queries of the following type:
+Calculate the sum of the elements of nums between indices left and right inclusive where left <= right. Implement the 
+
+NumArray class :
+NumArray(int[] nums) Initializes the object with the integer array nums.
+int sumRange(int left, int right) Returns the sum of the elements of nums between indices left and right inclusive (i.e. nums[left] + nums[left + 1] + ... + nums[right]).
